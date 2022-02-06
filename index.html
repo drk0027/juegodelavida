@@ -1,0 +1,48 @@
+<html lang="es">
+
+<head>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>El juego de la vida</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="manifest" href="manifest.json">
+</head>
+<header>
+
+
+</header>
+
+<body>
+    <noscript>Necesitas activar Javascript para ejecutar este codigo</noscript>
+    <h3>El juego de la vida</h3>
+    <p>Esta es una reescritura y documentacion extensiva de un algoritmo que encontre hace muchos años en internet, aun
+        antes de saber programar. Se puede leer la documentación que he creado para este proyecto tanto en la <a
+            href="Documentacion/">pagina generada por jsdocs</a> como en mi <a
+            href="https://interlan.ec/2021/09/08/el-juego-de-la-vida-una-reescritura-en-vainilla-javascript/">blog en
+            interlan.ec</a></p>
+    <p>El objetivo de este codigo es aprender sobre componentes que nunca habia manejado, como canvas, pero tambien
+        aprender a documentar el codigo extensivamente usando jsdocs y crear una aplicacion progresiva sin depender de
+        <a href="https://create-react-app.dev">create_react_app</a></p>
+    <h3>Leer documentacion:</h3>
+    <ul>
+        <li><a href="https://juegodelavida.interlan.ec/Documentacion">Documentacion generada con JSDoc</a></li>
+        <li><a href="http://interlan.ec/2021/09/08/el-juego-de-la-vida-una-reescritura-en-vainilla-javascript/">Documentacion
+                en entrada del blog</a></li>
+    </ul>
+    <button onclick="iniciar()">iniciar</button>
+    <button onclick="parar()">parar</button>
+    <button onclick="limpiar()">limpiar</button>
+    <button onclick="siguiente_generacion()">avanzar un paso</button>
+
+    <hr>
+    <canvas id="lienzo" width="200px" height="200px" style="/* width: 100%; */">
+
+    </canvas>
+</body>
+<footer>
+
+</footer>
+<!-- <script src="/service-worker.js""></script> -->
+<script src="/index.js""></script>
+    
+</html>

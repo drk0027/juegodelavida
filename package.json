@@ -1,0 +1,12 @@
+{
+  "name": "juegodelavida",
+  "version": "1.0.0",
+  "description": "Practica para crear el juego de la vida en html con javascript",
+  "main": "index.html",
+  "scripts": {
+    "test": "serve",
+    "generatedocs": "jsdoc -c jsdoc.conf index.js README.md -d Documentacion"
+  },
+  "author": "drk0027",
+  "license": "ISC"
+}

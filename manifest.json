@@ -1,0 +1,38 @@
+{
+    "short_name": "Juego_de_la_vida",
+    "name": "El juego de la vida. Una reescritura en vainilla javascript.",
+    "icons": [
+      {
+        "src": "/images/android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/android-chrome-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "shortcuts": [
+      {
+        "name": "El juego de la vida. Una reescritura en vainilla javascript.",
+        "short_name": "Juego_de_la_vida",
+        "description": "Reescritura didactica del juego de la vida con javascript vainilla y canvas en html5",
+        "url": "/today?source=pwa",
+        "icons": [{ "src": "/images/android-chrome-192x192.png", "sizes": "192x192" }]
+      }      
+    ],
+    "description": "Reescritura didactica del juego de la vida con javascript vainilla y canvas en html5",
+    "screenshots": [
+      {
+        "src": "/images/screenshot1.png",
+        "type": "image/png",
+        "sizes": "380x320"
+      }
+    ]
+  }
